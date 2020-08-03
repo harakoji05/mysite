@@ -31,3 +31,19 @@ header .container{
 	list-style: none;
 	padding: 0 30px;
 }
+.main-visual{
+	height: 650px;
+	text-align:center;
+	color: #FAFAFA;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual-title{
+	padding-top:200px;
+	font-size: 64px;
+}
+.main-visual-text{
+	padding-top:10px;
+	font-size: 20px;
+}
