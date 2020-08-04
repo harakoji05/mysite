@@ -105,6 +105,51 @@ header .container{
 .bg-6{
 	background-image: url(img/webcamp-mother.png)
 }
+.feature{
+	width:980px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+.feature-title{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+.feature-title::after{
+	content: "";
+	display: block;
+	margin: 8px auto 0 auto;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+}
+.feature-text{
+	margin-top: 30px;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.strength-group{
+	margin-top: 30px;
+}
+.strength{
+	text-align: center;
+	margin-right: 10px;
+	font-size: 60px;
+	float: left;
+	width: 320px;
+}
+.strength:last-child{
+	margin-right: 0;
+}
+.strength-title{
+	margin: 10px 0;
+	font-size: 20px;
+}
+.strength-text{
+	font-size: 16px;
+	text-align:left;
+}
 
 
 
